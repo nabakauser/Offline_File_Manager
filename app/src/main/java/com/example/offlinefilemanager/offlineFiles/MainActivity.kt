@@ -1,10 +1,10 @@
-package com.example.offlinefilemanager
+package com.example.offlinefilemanager.offlineFiles
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import com.example.offlinefilemanager.files.view.DisplayFilesRoute
-import com.example.offlinefilemanager.files.viewmodel.FilesViewModel
+import com.example.offlinefilemanager.offlineFiles.view.home.DisplayFilesRoute
+import com.example.offlinefilemanager.offlineFiles.viewmodel.FilesViewModel
 import com.example.offlinefilemanager.ui.theme.OfflineFileManagerTheme
 import org.koin.androidx.viewmodel.ext.android.viewModel
 

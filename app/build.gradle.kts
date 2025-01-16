@@ -2,6 +2,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+    alias(libs.plugins.kotlin.kapt)
 }
 
 android {
@@ -61,4 +62,9 @@ dependencies {
     implementation(libs.koin.androidx.scope)
     implementation(libs.koin.androidx.viewmodel)
     implementation(libs.koin.android)
+    implementation(libs.androidx.material.icons.extended)
+    implementation(libs.androidx.work.runtime.ktx)
+    implementation(libs.androidx.room.runtime)
+    kapt(libs.androidx.room.compiler)
+    implementation(libs.androidx.room.ktx)
 }
